@@ -1,0 +1,57 @@
+:root{
+    --bg-primary: #FCC8DB;
+    --font-primary: "M PLUS Rounded 1c"
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+img{
+    margin-top: 5rem;
+}
+
+.background{
+    background-image: url(./bg.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about{
+    background-color: var(--bg-primary);
+    z-index: 9999;
+    position: absolute;
+    height: 75vh;
+    box-shadow: -2px 7px 20px -1px #332e30e8;
+    border-radius: 50px 50px 0 0;
+}
+.base-text{
+    margin-top: 16px;
+    text-align: center;
+    width: 60%;
+}
+.title{
+    font-family: var(--font-primary);
+    font-weight: 800;
+    margin-bottom: 5px;
+    font-size: 2rem;
+}
+
+.desc{
+    font-family: var(--font-primary);
+    font-size: 1.5rem;
+    line-height: 33px;
+    font-weight: 400;
+}
+
